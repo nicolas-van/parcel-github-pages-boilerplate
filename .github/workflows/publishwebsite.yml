@@ -2,10 +2,10 @@ name: Publish Website
 
 on:
   push:
-    branches:
+    branches: # triggers on any push to master
     - master
-  schedule:
-    - cron: @weekly
+  schedule: # also triggers once per week
+    - cron: 0 0 * * 1
 
 jobs:
   build-deploy:
