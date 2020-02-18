@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Parcel boilerplate to deploy on Github Pages using Github Actions.",
   "scripts": {
-    "dev": "rm -rf .cache dist && parcel index.njk",
+    "start": "rm -rf .cache dist && parcel index.njk",
     "build": "rm -rf .cache dist && parcel build index.njk --public-url ./",
     "lint": "eslint \".*.js\" \"src/**/*.js\"",
     "lint:fix": "npm run lint -- --fix",

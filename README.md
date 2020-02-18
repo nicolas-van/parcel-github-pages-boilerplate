@@ -26,3 +26,37 @@ A Parcel boilerplate to automatically deploy on Github Pages using Github Action
 By following these steps the settings page should indicate you the URL of your deployed website, which should be `https://<your github account>.github.io/<the repository name>/`.
 
 Any following push to the `master` will automatically trigger the Github Actions workflow that will build and deploy your website to Github Pages.
+
+### Commands
+
+To install the requirements:
+
+```
+npm install
+```
+
+To start the project in development mode (automatically re-compiles the code):
+
+```
+npm start
+```
+
+To check the code with eslint (the Github Actions will fail if this step does'nt pass):
+
+```
+npm run lint
+```
+
+To automatically fix the lint problems:
+
+```
+npm run lint:fix
+```
+
+## Contribution
+
+[See the contribution guide.](./CONTRIBUTION.md)
+
+## License
+
+[See the license.](./LICENSE.md)
