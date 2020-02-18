@@ -4,7 +4,10 @@
   "description": "A Parcel boilerplate to deploy on Github Pages using Github Actions.",
   "scripts": {
     "dev": "rm -rf .cache dist && parcel index.njk",
-    "build": "rm -rf .cache dist && parcel build index.njk --public-url ./"
+    "build": "rm -rf .cache dist && parcel build index.njk --public-url ./",
+    "lint": "eslint \".*.js\" \"src/**/*.js\"",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "npm run lint"
   },
   "author": "",
   "license": "MIT",
@@ -12,6 +15,13 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-standard": "^4.0.1",
     "nunjucks": "^3.2.0",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-nunjucks": "^2.2.0",
@@ -21,6 +31,8 @@
     "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
-    "popper.js": "^1.16.1"
+    "popper.js": "^1.16.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
