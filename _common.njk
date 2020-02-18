@@ -1,0 +1,22 @@
+{# The common template for all the pages #}
+
+{% extends "_skeleton.njk" %}
+
+{% block body %}
+<div class="container pt-5">
+  <h1>Parcel Github Pages Boilerplate</h1>
+  <div class="card">
+    <div class="card-body">
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+  <div class="mt-5 text-muted text-center">
+    <p>
+      <a href="https://github.com/nicolas-van/parcel-github-pages-boilerplate">
+        Powered by Parcel Github Pages Boilerplate
+      </a>
+    </p>
+  </div>
+</div>
+{% endblock %}
