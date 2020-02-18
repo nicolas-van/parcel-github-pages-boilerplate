@@ -1,6 +1,7 @@
 
 // import some polyfill to ensure everything works OK
-import 'babel-polyfill'
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
 
 // import bootstrap's javascript part
 import 'bootstrap'
