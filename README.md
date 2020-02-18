@@ -3,5 +3,7 @@
 
 [![Publish Website](https://github.com/nicolas-van/parcel-github-pages-boilerplate/workflows/Publish%20Website/badge.svg)](https://github.com/nicolas-van/parcel-github-pages-boilerplate/actions?query=workflow%3A%22Publish+Website%22)
 
+[Demonstration website deployed here.](https://nicolas-van.github.io/parcel-github-pages-boilerplate/)
+
 A Parcel boilerplate to deploy on Github Pages using Github Actions.
 
