@@ -41,7 +41,7 @@ To start the project in development mode (automatically re-compiles the code):
 npm start
 ```
 
-To check the code with eslint (the Github Actions will fail if this step does'nt pass):
+To check the code with eslint (the CI will fail if this step doesn't pass):
 
 ```
 npm run lint
