@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - run: node --version
     - name: Cache node modules
       uses: actions/cache@v1
       with:
