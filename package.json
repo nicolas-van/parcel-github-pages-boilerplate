@@ -1,0 +1,29 @@
+{
+  "name": "parcel-github-pages-boilerplate",
+  "version": "1.0.0",
+  "description": "A Parcel boilerplate to deploy on Github Pages using Github Actions.",
+  "scripts": {
+    "dev": "rm -rf .cache dist && parcel index.njk",
+    "build": "rm -rf .cache dist && parcel build index.njk --public-url ./",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "babel-jest": "^24.9.0",
+    "jest": "^25.1.0",
+    "nunjucks": "^3.2.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nunjucks": "^2.2.0",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
