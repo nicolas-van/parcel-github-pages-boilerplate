@@ -29,6 +29,7 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
     "bootstrap": "^4.4.1",
     "core-js": "^3.6.4",
     "jquery": "^3.4.1",

@@ -6,6 +6,9 @@ import 'regenerator-runtime/runtime'
 // import bootstrap's javascript part
 import 'bootstrap'
 
+// import font awesome fonts
+import '@fortawesome/fontawesome-free/css/all.css'
+
 /*
   Put the JavaScript code you want below.
 */
