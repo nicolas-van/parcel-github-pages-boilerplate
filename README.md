@@ -7,7 +7,7 @@
 
 A Parcel boilerplate to automatically deploy on Github Pages using Github Actions.
 
-It bundles the following libraries:
+It includes the following tools and libraries:
 
 * [Parcel](https://parceljs.org/): The zero configuration web application bundler
 * [Babel](https://babeljs.io/): It's used implicitly by Parcel. Already contains a configuration for [React](https://reactjs.org/).
