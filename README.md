@@ -20,12 +20,10 @@ A Parcel boilerplate to automatically deploy on Github Pages using Github Action
 ## How to use it
 
 * Fork this repository and publish it in a new Github repository.
-* Go in the settings of your repository and under `Github Pages` confirm that you want your Github Pages website to be built from the `gh-pages` branch.
+* Go in the settings of your repository and under `Github Pages` confirm that you want your Github Pages website to be built from the `gh-pages` branch. The settings page should then indicate you the URL of your deployed website, which should be `https://<your github account>.github.io/<the repository name>/` in most cases.
 * Change something in your website to trigger a build and deployment (as example changing the text in `index.njk`).
 
-By following these steps the settings page should indicate you the URL of your deployed website, which should be `https://<your github account>.github.io/<the repository name>/`.
-
-Any following push to the `master` will automatically trigger the Github Actions workflow that will build and deploy your website to Github Pages.
+Any following push to the `master` branch will automatically trigger the Github Actions workflow that will build and deploy your website to Github Pages.
 
 ### Commands
 
