@@ -58,3 +58,10 @@ npm run lint:fix
 ## License
 
 [See the license.](./LICENSE.md)
+
+## Other Github Pages related projects
+
+I'm a fan of Github Pages for the possibilities it offers to anyone to publish a website for free. I have multiple projects that could be of interest if that's your case too:
+
+* [Easy Markdown to Github Pages](https://nicolas-van.github.io/easy-markdown-to-github-pages/)
+* [Bootstrap 4 Github Pages](https://nicolas-van.github.io/bootstrap-4-github-pages/)
